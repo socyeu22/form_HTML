@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="http://fptaptech.herokuapp.com" method = "get">
+    <form action="http://fptaptech.herokuapp.com" method = "get"> 
+        <!-- thuộc tính action cho biết địa chỉ nhận dữ liệu để xử lý -->
+        <!-- thuộc tính method cho phép hành động của form -->
         <fieldset>
             <legend>Your Details:</legend>
             <label>Name: <input type="text" name="name" size="30" maxlength="100"> </label> <br />
@@ -17,6 +19,7 @@
             <legend>Your Review:</legend>
             <p>
                 <label for="hear-about">How did you hear about us?</label>
+                <!-- thẻ lable để gắn nhãn cho 1 thẻ khác -->
                 <select name="referrer" id="hear-about">
                     <option value="google">Google</option>
                     <option value="friend">Friend</option>
